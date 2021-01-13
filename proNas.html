@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Document</title>
+</head>
+<body class="proNas">
+	<section>
+		<div class="side" id="side1"></div>
+		<div class="side" id="side2"></div>
+	</section>
+		<div class="contentBx">
+			 <header class="headerProNas">
+ 	<a href="index.html" class="logo">Фитнес-клуб<span> энергия</span></a>
+ 	<div class="menu">
+ 		<ul>
+ 			<li><a href="proNas.html" class="tegiMenu">О НАС</a></li>
+ 			<li><a href="trenera.html" class="tegiMenu">ТРЕНЕРА</a></li>
+ 			<li><a href="location.html" class="tegiMenu">МЕСТОПОЛОЖЕНИЕ</a></li>
+ 		</ul>
+ 	</div>
+ </header>
+			<h2>Фитнес-клуб «Энергия»</h2>
+			<p>Фитнес-клуб «Энергия» в Николаеве находится по адресу ул. Карпенко 5. Фитнес-клуб «Энергия» предоставляет услуги: тренажерный зал, фитнес, детский фитнес, консультация диетолога, йога, trx, кардизона, тренировки с тренером, фитнес бар. Стоимость занятий в месяц от 333 ₴.Основная причина прихода в тренажерный зал – это всегда неудовлетворенность своим состоянием. Это может быть недовольство своим внешним видом, своим самочувствием, пропорциями своего тела. Мы будем рады Вашему визиту!</p>
+		</div>
+	<script type="text/javascript">
+		var side1 = document.getElementById("side1")
+		window.addEventListener("scroll", function(){
+			side1.style.left = -window.pageYOffset + "px";
+		})
+		var side2 = document.getElementById("side2")
+		window.addEventListener("scroll", function(){
+			side2.style.left = window.pageYOffset + "px";
+		})
+	</script>
+</body>
+</html>
